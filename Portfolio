@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goodness Chidorom (Viora) | Healthcare Marketing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+        }
+        .section {
+            padding: 8rem 0;
+        }
+        .header-bg {
+            background-color: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+        .line-gradient {
+            background: linear-gradient(to right, #007bff, #20c997);
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+<!-- Header & Navigation -->
+<header class="sticky top-0 z-50 py-4 px-6 md:px-12 header-bg shadow-md">
+    <nav class="container mx-auto flex items-center justify-between">
+        <a href="#home" class="text-2xl font-bold text-gray-900">Goodness Chidorom <span class="text-blue-600">(Viora)</span></a>
+        <div class="hidden md:flex space-x-8 text-gray-600 font-medium">
+            <a href="#home" class="hover:text-blue-600 transition-colors duration-300">Home</a>
+            <a href="#about" class="hover:text-blue-600 transition-colors duration-300">About</a>
+            <a href="#projects" class="hover:text-blue-600 transition-colors duration-300">Projects</a>
+            <a href="#testimonials" class="hover:text-blue-600 transition-colors duration-300">Testimonials</a>
+            <a href="#contact" class="hover:text-blue-600 transition-colors duration-300">Contact</a>
+        </div>
+        <button id="menu-toggle" class="md:hidden text-gray-600 hover:text-blue-600 transition-colors duration-300">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+        </button>
+    </nav>
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden absolute top-full left-0 w-full bg-white shadow-lg py-4 transition-all duration-300">
+        <div class="flex flex-col items-center space-y-4 text-gray-600 font-medium">
+            <a href="#home" class="hover:text-blue-600 transition-colors duration-300">Home</a>
+            <a href="#about" class="hover:text-blue-600 transition-colors duration-300">About</a>
+            <a href="#projects" class="hover:text-blue-600 transition-colors duration-300">Projects</a>
+            <a href="#testimonials" class="hover:text-blue-600 transition-colors duration-300">Testimonials</a>
+            <a href="#contact" class="hover:text-blue-600 transition-colors duration-300">Contact</a>
+        </div>
+    </div>
+</header>
+
+<main>
+    <!-- Cover Page -->
+    <section id="home" class="section flex items-center justify-center min-h-screen text-center bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h1 class="text-4xl sm:text-5xl lg:text-7xl font-extrabold text-gray-900 leading-tight mb-4">
+                Goodness Chidorom
+            </h1>
+            <p class="text-xl sm:text-2xl font-light text-blue-600 mb-8">
+                <span class="font-bold">The Vioraconnect Brand</span> | Healthcare Marketing & Social Media
+            </p>
+            <p class="max-w-xl mx-auto text-gray-600 text-lg mb-10">
+                Crafting compelling and ethical marketing strategies to connect healthcare solutions with the people who need them most.
+            </p>
+            <a href="#projects" class="inline-block bg-blue-600 text-white font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-blue-700 transition-transform duration-300 transform hover:scale-105">
+                Explore My Work
+            </a>
+        </div>
+    </section>
+
+    <!-- Intro Page -->
+    <section id="about" class="section bg-white">
+        <div class="container mx-auto px-4 md:px-12">
+            <div class="flex flex-col lg:flex-row items-center lg:space-x-12">
+                <div class="lg:w-1/2 mb-8 lg:mb-0">
+                    <img src="https://gemini.google.com/uploaded:Gemini_Generated_Image_qasnkzqasnkzqasn.jpg-b4cafabd-e6cb-4912-9467-5593a88c6744" alt="Goodness Chidorom Viora" class="rounded-3xl shadow-2xl w-full h-auto object-cover">
+                </div>
+                <div class="lg:w-1/2">
+                    <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">About Me</h2>
+                    <div class="w-24 h-1 line-gradient rounded-full mb-6"></div>
+                    <p class="text-lg text-gray-700 mb-6">
+                        Hello! My name is Goodness Chidorom, and I am the force behind **The Vioraconnect Brand**. As a nursing student, I have a deep-rooted passion for health education. This unique perspective, combined with my skills as a certified health writer, content marketer, and social media manager, allows me to bridge the gap between complex health information and the people who need it most. My goal is to educate and inform, while also helping healthcare brands thrive online.
+                    </p>
+                    <p class="text-lg text-gray-700 mb-6">
+                        I am a strong believer in building marketing strategies on the pillars of **trust, compliance, and results**. I have a knack for storytelling and I love using my skills to create content that not only engages but also inspires. My diverse background, from traditional medicine to being a store manager, has given me a unique ability to communicate effectively and connect with a wide range of audiences. I am a passionate, ambitious, and driven professional ready to help you grow.
+                    </p>
+                    <a href="#contact" class="inline-block bg-blue-600 text-white font-semibold py-2 px-6 rounded-full shadow-lg hover:bg-blue-700 transition-transform duration-300">
+                        Let's Connect
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fun Facts Section -->
+    <section id="fun-facts" class="section bg-gray-50">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Fun Facts About Me</h2>
+            <div class="w-24 h-1 line-gradient rounded-full mx-auto mb-10"></div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white p-6 rounded-2xl shadow-lg border border-gray-200">
+                    <div class="text-4xl mb-4">🧠</div>
+                    <h3 class="font-bold text-xl mb-2">AI & Research Enthusiast</h3>
+                    <p class="text-gray-600">I'm a self-proclaimed AI enthusiast who loves staying indoors, researching, and creating stunning graphics and videos with the help of artificial intelligence.</p>
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow-lg border border-gray-200">
+                    <div class="text-4xl mb-4">🎤</div>
+                    <h3 class="font-bold text-xl mb-2">Public Speaker & Negotiator</h3>
+                    <p class="text-gray-600">Beyond the screen, I am a confident public speaker and a skilled negotiator, a testament to my ability to connect and influence people in person.</p>
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow-lg border border-gray-200">
+                    <div class="text-4xl mb-4">🍲</div>
+                    <h3 class="font-bold text-xl mb-2">Culinary Comfort</h3>
+                    <p class="text-gray-600">My favorite meal is a simple but delicious combination of rice and vegetable soup, proving that some of the best things are the most fundamental.</p>
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow-lg border border-gray-200">
+                    <div class="text-4xl mb-4">👩‍🏫</div>
+                    <h3 class="font-bold text-xl mb-2">Future Nurse Educator</h3>
+                    <p class="text-gray-600">My biggest goal outside of my professional work is to become one of the top two nurse educators in the world, a true testament to my passion for teaching and helping others.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Catalogue -->
+    <section id="projects" class="section bg-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Project Catalogue</h2>
+            <div class="w-24 h-1 line-gradient rounded-full mx-auto mb-10"></div>
+            <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-white rounded-3xl overflow-hidden shadow-xl border border-gray-200 transition-transform duration-300 hover:scale-105">
+                    <img src="https://gemini.google.com/uploaded:IMG-20250913-WA0095.jpg-fe96d15c-0993-46b6-b8c0-94e320ef77e0" alt="Content Made Easy Book" class="w-full h-auto object-cover">
+                    <div class="p-6 text-left">
+                        <h3 class="font-bold text-2xl mb-2">"Content Made Easy" - My First Book</h3>
+                        <p class="text-gray-600 text-base mb-4">As my first major professional project, I authored and self-marketed "Content Made Easy." The book's target audience was aspiring creators, offering a clear roadmap to consistency by providing 13 months of content ideas. I was the author, marketer, and salesperson, leveraging my storytelling and AI skills to create compelling video ads and content. I marketed the book directly to my audience, focusing on building trust through consistent, valuable engagement.</p>
+                        <ul class="text-gray-700 list-disc list-inside space-y-2 mb-4">
+                            <li>**Key Result:** Sold over 100 copies and received an overwhelming number of heartfelt testimonials.</li>
+                            <li>**Key Learning:** This project taught me the true power of storytelling, the importance of showing up consistently for your audience, and how to talk to people in a way that builds authentic trust.</li>
+                        </ul>
+                        <a href="#" class="inline-block text-blue-600 font-semibold hover:underline">View Testimonials &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="section bg-gray-50">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">What Readers Are Saying</h2>
+            <div class="w-24 h-1 line-gradient rounded-full mx-auto mb-10"></div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-200">
+                    <p class="text-lg text-gray-700 italic mb-4">"The book is what every creator needs... I learnt a lot from that book, it opened my eyes and I can say that my content journey has been made easy. The price of the book should be increased because the knowledge worth every dime."</p>
+                    <div class="text-right font-semibold text-gray-900">- Chioma AWUZIE</div>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-200">
+                    <p class="text-lg text-gray-700 italic mb-4">"I like how the book was communicated on a personal level... It gives the reader a channel to know and understand you like an elder sister or a friend. Generally speaking it's an awesome book."</p>
+                    <div class="text-right font-semibold text-gray-900">- OBINNA LETISHA</div>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-200">
+                    <p class="text-lg text-gray-700 italic mb-4">"Content Made Easy is a refreshing and practical guide... Her approach makes content creation feel far less intimidating and much more doable... It’s an encouraging and practical roadmap for getting started with confidence."</p>
+                    <div class="text-right font-semibold text-gray-900">- Jennifer Ibhafidon</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Companies I've Worked For -->
+    <section id="experience" class="section bg-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Companies & Experience</h2>
+            <div class="w-24 h-1 line-gradient rounded-full mx-auto mb-10"></div>
+            <div class="space-y-8 text-left max-w-2xl mx-auto">
+                <div class="bg-gray-50 p-6 rounded-2xl shadow-lg border border-gray-200">
+                    <h3 class="font-bold text-xl mb-1">Social Media Manager</h3>
+                    <p class="text-gray-600 mb-2">Vioraconnect & Denz Stitches</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-2xl shadow-lg border border-gray-200">
+                    <h3 class="font-bold text-xl mb-1">Virtual Assistance Intern</h3>
+                    <p class="text-gray-600 mb-2">DEXA | Remote | Oct 2024 – Nov 2024</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates -->
+    <section id="certificates" class="section bg-gray-50">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">My Certifications</h2>
+            <div class="w-24 h-1 line-gradient rounded-full mx-auto mb-10"></div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Certificate 1: Social Media Management -->
+                <div class="bg-white p-6 rounded-2xl shadow-lg border border-gray-200 text-left">
+                    <div class="w-full h-40 mb-4 flex items-center justify-center bg-gray-100 rounded-lg">
+                        <img src="https://gemini.google.com/uploaded:IMG-20250913-WA0097.jpg-12772fbf-c246-4288-8b0a-862ecd710e8c" alt="Social Media Management Certificate" class="h-full w-auto object-contain">
+                    </div>
+                    <h3 class="font-bold text-xl mb-2">Social Media Management</h3>
+                    <p class="text-gray-600 text-sm">Issued by **Great Learning**.</p>
+                </div>
+                <!-- Certificate 2: Content Marketing -->
+                <div class="bg-white p-6 rounded-2xl shadow-lg border border-gray-200 text-left">
+                    <div class="w-full h-40 mb-4 flex items-center justify-center bg-gray-100 rounded-lg">
+                        <img src="https://gemini.google.com/uploaded:IMG-20250913-WA0097.jpg-12772fbf-c246-4288-8b0a-862ecd710e8c" alt="Content Marketing Certificate" class="h-full w-auto object-contain">
+                    </div>
+                    <h3 class="font-bold text-xl mb-2">Content Marketing</h3>
+                    <p class="text-gray-600 text-sm">Issued by **HubSpot Academy**.</p>
+                </div>
+                <!-- Certificate 3: Virtual Assistant Training -->
+                <div class="bg-white p-6 rounded-2xl shadow-lg border border-gray-200 text-left">
+                    <div class="w-full h-40 mb-4 flex items-center justify-center bg-gray-100 rounded-lg">
+                        <img src="https://gemini.google.com/uploaded:IMG-20250913-WA0097.jpg-12772fbf-c246-4288-8b0a-862ecd710e8c" alt="Virtual Assistant Training Certificate" class="h-full w-auto object-contain">
+                    </div>
+                    <h3 class="font-bold text-xl mb-2">Virtual Assistant Training</h3>
+                    <p class="text-gray-600 text-sm">Issued by **DEXA**.</p>
+                </div>
+                <!-- Certificate 4: Graphic Design -->
+                <div class="bg-white p-6 rounded-2xl shadow-lg border border-gray-200 text-left">
+                    <div class="w-full h-40 mb-4 flex items-center justify-center bg-gray-100 rounded-lg">
+                        <img src="https://gemini.google.com/uploaded:IMG-20250913-WA0097.jpg-12772fbf-c246-4288-8b0a-862ecd710e8c" alt="Graphic Design Certificate" class="h-full w-auto object-contain">
+                    </div>
+                    <h3 class="font-bold text-xl mb-2">Graphic Design</h3>
+                    <p class="text-gray-600 text-sm">Issued by **Canva Design School**.</p>
+                </div>
+                <!-- Certificate 5: Video Editing -->
+                <div class="bg-white p-6 rounded-2xl shadow-lg border border-gray-200 text-left">
+                    <div class="w-full h-40 mb-4 flex items-center justify-center bg-gray-100 rounded-lg">
+                        <img src="https://gemini.google.com/uploaded:IMG-20250913-WA0097.jpg-12772fbf-c246-4288-8b0a-862ecd710e8c" alt="Video Editing Certificate" class="h-full w-auto object-contain">
+                    </div>
+                    <h3 class="font-bold text-xl mb-2">Video Editing</h3>
+                    <p class="text-gray-600 text-sm">Issued by **SamuelJohns Films**.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Page -->
+    <section id="contact" class="section bg-white">
+        <div class="container mx-auto px-4 md:px-12">
+            <div class="flex flex-col lg:flex-row items-center lg:space-x-12">
+                <div class="lg:w-1/2 mb-8 lg:mb-0">
+                    <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Let's Connect</h2>
+                    <div class="w-24 h-1 line-gradient rounded-full mb-6"></div>
+                    <p class="text-lg text-gray-700 mb-8">
+                        I'm always open to new opportunities and collaborations. Feel free to reach out to discuss your project, an open role, or just to say hello!
+                    </p>
+                    <div class="space-y-4">
+                        <div class="flex items-center space-x-3">
+                            <span class="text-blue-600">
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M2.003 5.884L10 9.882l-7.997 3.998v-7.996zm0-1.884l10 5 10-5v14l-10 5-10-5v-14z"></path></svg>
+                            </span>
+                            <span class="text-gray-700">goodnesschidorom@gmail.com</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <span class="text-blue-600">
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 16h-2v-6h2v6zm4 0h-2v-6h2v6zm-2-8h-2V6h2v4zm4 0h-2V6h2v4z"></path></svg>
+                            </span>
+                            <span class="text-gray-700">+1 (123) 456-7890</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <span class="text-blue-600">
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 3H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2V5a2 2 0 00-2-2zM8 15v-6h3v6H8zm4 0h3v-6h-3v6z"></path></svg>
+                            </span>
+                            <a href="https://www.linkedin.com/in/goodnesschi?utm" class="text-gray-700 hover:text-blue-600 transition-colors duration-300">linkedin.com/in/goodnesschi</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 w-full">
+                    <form class="bg-gray-50 p-8 rounded-2xl shadow-xl border border-gray-200 space-y-4">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Name</label>
+                            <input type="text" id="name" name="name" class="w-full p-3 rounded-lg border-gray-300 focus:ring-blue-500 focus:border-blue-500 shadow-sm transition-colors duration-300" placeholder="Your Name">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                            <input type="email" id="email" name="email" class="w-full p-3 rounded-lg border-gray-300 focus:ring-blue-500 focus:border-blue-500 shadow-sm transition-colors duration-300" placeholder="your@email.com">
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Message</label>
+                            <textarea id="message" name="message" rows="4" class="w-full p-3 rounded-lg border-gray-300 focus:ring-blue-500 focus:border-blue-500 shadow-sm transition-colors duration-300" placeholder="Your Message..."></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-blue-600 text-white font-semibold py-3 px-6 rounded-full hover:bg-blue-700 transition-colors duration-300">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- Footer -->
+<footer class="bg-gray-900 text-white py-8 text-center">
+    <div class="container mx-auto px-4">
+        <p>&copy; 2023 Goodness Chidorom (Viora). All rights reserved.</p>
+    </div>
+</footer>
+
+<script>
+    document.getElementById('menu-toggle').addEventListener('click', function() {
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenu.classList.toggle('hidden');
+    });
+
+    const mobileMenuLinks = document.querySelectorAll('#mobile-menu a');
+    mobileMenuLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.add('hidden');
+        });
+    });
+</script>
+
+</body>
+</html>
